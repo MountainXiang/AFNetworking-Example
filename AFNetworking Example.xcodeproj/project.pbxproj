@@ -13,6 +13,8 @@
 		AAA56B9D205BB78A00F7CD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA56B9C205BB78A00F7CD40 /* Assets.xcassets */; };
 		AAA56BA0205BB78A00F7CD40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA56B9E205BB78A00F7CD40 /* LaunchScreen.storyboard */; };
 		AAA56BA3205BB78A00F7CD40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA56BA2205BB78A00F7CD40 /* main.m */; };
+		AAA56BAD205BCB4200F7CD40 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA56BAC205BCB4200F7CD40 /* AFURLSessionManager.m */; };
+		AAA56BB0205BCCF700F7CD40 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA56BAF205BCCF700F7CD40 /* AFURLResponseSerialization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		AAA56B9F205BB78A00F7CD40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAA56BA1205BB78A00F7CD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAA56BA2205BB78A00F7CD40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAA56BAB205BCB4200F7CD40 /* AFURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		AAA56BAC205BCB4200F7CD40 /* AFURLSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		AAA56BAE205BCCF700F7CD40 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		AAA56BAF205BCCF700F7CD40 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,10 @@
 		AAA56BAA205BBEEA00F7CD40 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				AAA56BAE205BCCF700F7CD40 /* AFURLResponseSerialization.h */,
+				AAA56BAF205BCCF700F7CD40 /* AFURLResponseSerialization.m */,
+				AAA56BAB205BCB4200F7CD40 /* AFURLSessionManager.h */,
+				AAA56BAC205BCB4200F7CD40 /* AFURLSessionManager.m */,
 			);
 			path = AFNetworking;
 			sourceTree = SOURCE_ROOT;
@@ -151,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAA56B98205BB78A00F7CD40 /* ViewController.m in Sources */,
+				AAA56BAD205BCB4200F7CD40 /* AFURLSessionManager.m in Sources */,
 				AAA56BA3205BB78A00F7CD40 /* main.m in Sources */,
 				AAA56B95205BB78A00F7CD40 /* AppDelegate.m in Sources */,
+				AAA56BB0205BCCF700F7CD40 /* AFURLResponseSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
